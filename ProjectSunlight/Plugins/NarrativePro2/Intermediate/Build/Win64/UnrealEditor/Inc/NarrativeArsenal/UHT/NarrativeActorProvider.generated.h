@@ -1,0 +1,353 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "NarrativeActorProvider.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UObject;
+#ifdef NARRATIVEARSENAL_NarrativeActorProvider_generated_h
+#error "NarrativeActorProvider.generated.h already included, missing '#pragma once' in NarrativeActorProvider.h"
+#endif
+#define NARRATIVEARSENAL_NarrativeActorProvider_generated_h
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_14_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FInstancedActorProvider_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> NARRATIVEARSENAL_API UScriptStruct* StaticStruct<struct FInstancedActorProvider>();
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_29_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FInstancedTransformProvider_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> NARRATIVEARSENAL_API UScriptStruct* StaticStruct<struct FInstancedTransformProvider>();
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_45_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetDescription);
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_45_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNarrativeProviderBase(); \
+	friend struct Z_Construct_UClass_UNarrativeProviderBase_Statics; \
+public: \
+	DECLARE_CLASS(UNarrativeProviderBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/NarrativeArsenal"), NO_API) \
+	DECLARE_SERIALIZER(UNarrativeProviderBase)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_45_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	UNarrativeProviderBase(UNarrativeProviderBase&&); \
+	UNarrativeProviderBase(const UNarrativeProviderBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNarrativeProviderBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNarrativeProviderBase); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(UNarrativeProviderBase) \
+	NO_API virtual ~UNarrativeProviderBase();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_42_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_45_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_45_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_45_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_45_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NARRATIVEARSENAL_API UClass* StaticClass<class UNarrativeProviderBase>();
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_62_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execProvideTransform);
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_62_CALLBACK_WRAPPERS
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_62_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNarrativeTransformProvider(); \
+	friend struct Z_Construct_UClass_UNarrativeTransformProvider_Statics; \
+public: \
+	DECLARE_CLASS(UNarrativeTransformProvider, UNarrativeProviderBase, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/NarrativeArsenal"), NO_API) \
+	DECLARE_SERIALIZER(UNarrativeTransformProvider)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_62_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	UNarrativeTransformProvider(UNarrativeTransformProvider&&); \
+	UNarrativeTransformProvider(const UNarrativeTransformProvider&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNarrativeTransformProvider); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNarrativeTransformProvider); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(UNarrativeTransformProvider) \
+	NO_API virtual ~UNarrativeTransformProvider();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_59_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_62_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_62_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_62_CALLBACK_WRAPPERS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_62_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_62_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NARRATIVEARSENAL_API UClass* StaticClass<class UNarrativeTransformProvider>();
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_109_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execProvideActor);
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_109_CALLBACK_WRAPPERS
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_109_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNarrativeActorProvider(); \
+	friend struct Z_Construct_UClass_UNarrativeActorProvider_Statics; \
+public: \
+	DECLARE_CLASS(UNarrativeActorProvider, UNarrativeTransformProvider, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/NarrativeArsenal"), NO_API) \
+	DECLARE_SERIALIZER(UNarrativeActorProvider)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_109_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	UNarrativeActorProvider(UNarrativeActorProvider&&); \
+	UNarrativeActorProvider(const UNarrativeActorProvider&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNarrativeActorProvider); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNarrativeActorProvider); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(UNarrativeActorProvider) \
+	NO_API virtual ~UNarrativeActorProvider();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_106_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_109_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_109_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_109_CALLBACK_WRAPPERS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_109_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_109_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NARRATIVEARSENAL_API UClass* StaticClass<class UNarrativeActorProvider>();
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_157_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNarrativeActorProvider_NPC(); \
+	friend struct Z_Construct_UClass_UNarrativeActorProvider_NPC_Statics; \
+public: \
+	DECLARE_CLASS(UNarrativeActorProvider_NPC, UNarrativeActorProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NarrativeArsenal"), NO_API) \
+	DECLARE_SERIALIZER(UNarrativeActorProvider_NPC)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_157_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	UNarrativeActorProvider_NPC(UNarrativeActorProvider_NPC&&); \
+	UNarrativeActorProvider_NPC(const UNarrativeActorProvider_NPC&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNarrativeActorProvider_NPC); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNarrativeActorProvider_NPC); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNarrativeActorProvider_NPC) \
+	NO_API virtual ~UNarrativeActorProvider_NPC();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_154_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_157_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_157_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_157_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NARRATIVEARSENAL_API UClass* StaticClass<class UNarrativeActorProvider_NPC>();
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_179_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNarrativeActorProvider_GUIDLookup(); \
+	friend struct Z_Construct_UClass_UNarrativeActorProvider_GUIDLookup_Statics; \
+public: \
+	DECLARE_CLASS(UNarrativeActorProvider_GUIDLookup, UNarrativeActorProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NarrativeArsenal"), NO_API) \
+	DECLARE_SERIALIZER(UNarrativeActorProvider_GUIDLookup)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_179_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	UNarrativeActorProvider_GUIDLookup(UNarrativeActorProvider_GUIDLookup&&); \
+	UNarrativeActorProvider_GUIDLookup(const UNarrativeActorProvider_GUIDLookup&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNarrativeActorProvider_GUIDLookup); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNarrativeActorProvider_GUIDLookup); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNarrativeActorProvider_GUIDLookup) \
+	NO_API virtual ~UNarrativeActorProvider_GUIDLookup();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_176_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_179_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_179_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_179_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NARRATIVEARSENAL_API UClass* StaticClass<class UNarrativeActorProvider_GUIDLookup>();
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_199_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNarrativeActorProvider_LevelReference(); \
+	friend struct Z_Construct_UClass_UNarrativeActorProvider_LevelReference_Statics; \
+public: \
+	DECLARE_CLASS(UNarrativeActorProvider_LevelReference, UNarrativeActorProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NarrativeArsenal"), NO_API) \
+	DECLARE_SERIALIZER(UNarrativeActorProvider_LevelReference)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_199_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	UNarrativeActorProvider_LevelReference(UNarrativeActorProvider_LevelReference&&); \
+	UNarrativeActorProvider_LevelReference(const UNarrativeActorProvider_LevelReference&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNarrativeActorProvider_LevelReference); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNarrativeActorProvider_LevelReference); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNarrativeActorProvider_LevelReference) \
+	NO_API virtual ~UNarrativeActorProvider_LevelReference();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_196_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_199_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_199_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_199_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NARRATIVEARSENAL_API UClass* StaticClass<class UNarrativeActorProvider_LevelReference>();
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_219_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNarrativeActorProvider_ActorOfClass(); \
+	friend struct Z_Construct_UClass_UNarrativeActorProvider_ActorOfClass_Statics; \
+public: \
+	DECLARE_CLASS(UNarrativeActorProvider_ActorOfClass, UNarrativeActorProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NarrativeArsenal"), NO_API) \
+	DECLARE_SERIALIZER(UNarrativeActorProvider_ActorOfClass)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_219_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	UNarrativeActorProvider_ActorOfClass(UNarrativeActorProvider_ActorOfClass&&); \
+	UNarrativeActorProvider_ActorOfClass(const UNarrativeActorProvider_ActorOfClass&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNarrativeActorProvider_ActorOfClass); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNarrativeActorProvider_ActorOfClass); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNarrativeActorProvider_ActorOfClass) \
+	NO_API virtual ~UNarrativeActorProvider_ActorOfClass();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_216_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_219_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_219_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_219_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NARRATIVEARSENAL_API UClass* StaticClass<class UNarrativeActorProvider_ActorOfClass>();
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_239_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNarrativeTransformProvider_POI(); \
+	friend struct Z_Construct_UClass_UNarrativeTransformProvider_POI_Statics; \
+public: \
+	DECLARE_CLASS(UNarrativeTransformProvider_POI, UNarrativeTransformProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NarrativeArsenal"), NO_API) \
+	DECLARE_SERIALIZER(UNarrativeTransformProvider_POI)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_239_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	UNarrativeTransformProvider_POI(UNarrativeTransformProvider_POI&&); \
+	UNarrativeTransformProvider_POI(const UNarrativeTransformProvider_POI&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNarrativeTransformProvider_POI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNarrativeTransformProvider_POI); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNarrativeTransformProvider_POI) \
+	NO_API virtual ~UNarrativeTransformProvider_POI();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_236_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_239_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_239_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_239_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NARRATIVEARSENAL_API UClass* StaticClass<class UNarrativeTransformProvider_POI>();
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_260_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNarrativeTransformProvider_SpecifiedTransform(); \
+	friend struct Z_Construct_UClass_UNarrativeTransformProvider_SpecifiedTransform_Statics; \
+public: \
+	DECLARE_CLASS(UNarrativeTransformProvider_SpecifiedTransform, UNarrativeTransformProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NarrativeArsenal"), NO_API) \
+	DECLARE_SERIALIZER(UNarrativeTransformProvider_SpecifiedTransform)
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_260_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	UNarrativeTransformProvider_SpecifiedTransform(UNarrativeTransformProvider_SpecifiedTransform&&); \
+	UNarrativeTransformProvider_SpecifiedTransform(const UNarrativeTransformProvider_SpecifiedTransform&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNarrativeTransformProvider_SpecifiedTransform); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNarrativeTransformProvider_SpecifiedTransform); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNarrativeTransformProvider_SpecifiedTransform) \
+	NO_API virtual ~UNarrativeTransformProvider_SpecifiedTransform();
+
+
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_257_PROLOG
+#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_260_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_260_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h_260_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NARRATIVEARSENAL_API UClass* StaticClass<class UNarrativeTransformProvider_SpecifiedTransform>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_NarrativePro_Source_NarrativeArsenal_Public_NarrativeActorProvider_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
