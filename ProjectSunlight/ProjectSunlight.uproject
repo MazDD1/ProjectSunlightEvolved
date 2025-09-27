@@ -25,6 +25,10 @@
 				"Linux",
 				"Android"
 			]
+		},
+		{
+			"Name": "LiveLinkFaceImporter",
+			"Enabled": true
 		}
 	]
 }
